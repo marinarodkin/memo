@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+.App {
+  text-align: center;
+}
+
+.memo-field{
+  background-image: url(./img/background1.jpg);
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  padding-top: 6vh;
+}
+.memo-cards,
+.title{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .memo-cards,
+  .title {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .memo-cards,
+  .title{
+    width: 700px;
+    height: 700px;
+  }
+}
+
+.title_img{
+  background-image: url(./img/title.png);
+  width: 90%;
+  height: 55%;
+}
+
+@media (min-width: 1000px) {
+  .title_img {
+
+    background-image: url(./img/title.png);
+    width: 90%;
+    height: 55%;
+    margin: 0 auto;
+    background-size: cover;
+  }
+}
+
+.card{
+  width: 17%;
+  height: 17%;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 3% 3% 3% 3%;
+}
+.closed{
+  background-image: url(./img/memopic-15.jpg);
+  background-size: cover;
+}
+
+.card-card1{
+  background-image: url(./img/memopic-01.jpg);
+}
+.card-card2{
+  background-image: url(./img/memopic-02.jpg);
+}
+.card-card3{
+  background-image: url(./img/memopic-03.jpg);
+}
+.card-card4{
+  background-image: url(./img/memopic-08.jpg);
+}
+.card-card5{
+  background-image: url(./img/memopic-04.jpg);
+}
+.card-card6{
+  background-image: url(./img/memopic-05.jpg);
+}
+.card-card7{
+  background-image: url(./img/memopic-06.jpg);
+}
+.card-card8{
+  background-image: url(./img/memopic-07.jpg);
+}
+
+.finished{
+opacity: 0;
+}
+
+.btn_game-start{
+  border: none;
+  display:  block;
+  padding: 1vh 4vh 1vh 4vh;
+  font-size: 4vh;
+  background-color: #DC9512;
+  border-radius: 1vh;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6vh;
+  margin-bottom: 40vh;
+  text-transform: uppercase;
+  box-shadow: 0 1px 0 0 #d64d08, 0 2px 1px 0 rgba(0, 0, 0, .1);
+  font-family: 'Mali', cursive;
+  font-weight: 700;
+  color: #1E1329;
+  box-sizing: border-box;
+  height: 8vh;
+}
+
+.btn_game-start:hover {
+  border-bottom-color: transparent;
+  background-color: #DC9512;
+  -o-transition: all .3s;
+  transition: all .3s
+  }
+
+
+.congratulation-img{
+  background-image: url(./img/congratulation.png);
+  width: 90%;
+  height: 28%;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+@@media query {
+
+}
